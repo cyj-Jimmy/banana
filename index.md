@@ -4,7 +4,7 @@ layout: default
 ---
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+<img src="{{ site.baseurl }}/static/imgs/logo.png" alt="Image of Comp110 rainbow logo." width="500"/>
 
 
 # EX09 Data Analysis Project
@@ -21,19 +21,19 @@ I chose this idea because the survey has direct data about pre-lecture videos. I
 
 ## Chart 1: Interest in pre-lecture videos
 
-![Student Interest in Pre-Lecture Videos](static/chart1.png)
+![Student Interest in Pre-Lecture Videos]({{ site.baseurl }}/static/imgs/chart1.png)
 
 This chart shows how students rated the idea of optional pre-lecture videos. If many students gave high ratings, then it suggests that students may want another way to prepare before lecture.
 
 ## Chart 2: Making own examples and understanding
 
-![Making Own Code Examples and Understanding](static/chart2.png)
+![Making Own Code Examples and Understanding]({{ site.baseurl }}/static/imgs/chart2.png)
 
 This chart compares how often students try to make their own code examples with their understanding. I used this because programming is more active than just watching code.
 
 ## Chart 3: Programming assignments and course value
 
-![Programming Assignments and Course Value](static/chart3.png)
+![Programming Assignments and Course Value]({{ site.baseurl }}/static/imgs/chart3.png)
 
 This chart compares how effective students think programming assignments are with how valuable they think the course is. This helps show whether hands-on practice connects with students feeling the course is useful.
 
